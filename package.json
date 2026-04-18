@@ -1,0 +1,37 @@
+{
+  "name": "knowledge-organizer",
+  "version": "1.0.0",
+  "description": "知识整理技能 - LLM 驱动的知识查询和组织 (Knowledge Organizer Skill for OpenClaw)",
+  "author": "小蟹 🦀",
+  "license": "MIT",
+  "keywords": [
+    "openclaw",
+    "skill",
+    "knowledge-base",
+    "llm",
+    "karpathy",
+    "wiki",
+    "knowledge-graph"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/knowledge-organizer.git"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/knowledge-organizer#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/knowledge-organizer/issues"
+  },
+  "main": "skill.py",
+  "scripts": {
+    "test": "python3 test-skill.py"
+  },
+  "engines": {
+    "python": ">=3.8"
+  },
+  "openclaw": {
+    "minVersion": "2026.4.0",
+    "skillType": "knowledge",
+    "entryPoint": "skill.py",
+    "executeFunction": "execute"
+  }
+}

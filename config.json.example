@@ -1,0 +1,46 @@
+{
+  "name": "knowledge-organizer",
+  "version": "1.0.0",
+  "description": "知识整理技能 - LLM 驱动的知识查询和组织",
+  "author": "小蟹 🦀",
+  "license": "MIT",
+  "created": "2026-04-19",
+  "triggers": [
+    "是什么",
+    "介绍一下",
+    "详情",
+    "信息",
+    "数据",
+    "整理",
+    "总结",
+    "情况",
+    "进展",
+    "进度",
+    "分析",
+    "怎么样",
+    "有哪些"
+  ],
+  "entry_point": "skill.py",
+  "execute_function": "execute",
+  "dependencies": [],
+  "permissions": [
+    "read:knowledge-base",
+    "read:company"
+  ],
+  "config": {
+    "_comment": "复制此文件为 config.json 并填入你的路径",
+    "knowledge_base_path": "/path/to/your/knowledge-base",
+    "compiled_wiki_path": "/path/to/your/compiled/wiki",
+    "company_data_path": "/path/to/your/wiki/company",
+    "analysis_path": "/path/to/your/wiki/analysis",
+    "raw_docs_path": "/path/to/your/raw"
+  },
+  "defaults": {
+    "_comment": "默认路径 - 用于代码分享时的默认值",
+    "knowledge_base_path": "./knowledge-base",
+    "compiled_wiki_path": "./compiled/wiki",
+    "company_data_path": "./wiki/company",
+    "analysis_path": "./wiki/analysis",
+    "raw_docs_path": "./raw"
+  }
+}

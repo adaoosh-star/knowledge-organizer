@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 私有配置（包含公司路径）
+config.json
+
+# 内部文档
+修复完成报告-*.md
+INTEGRATION-COMPLETE.md
+开源准备清单.md
+
+# 日志
+*.log
+
+# 测试数据
+test-data/
+coverage/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# 临时文件
+*.tmp
+*.bak
